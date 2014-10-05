@@ -1,0 +1,38 @@
+{
+  "name": "latextomathml",
+  "version": "0.0.4",
+  "description": "A javascript library for converting LaTeX equations to MathML",
+  "keywords": [
+    "latex",
+    "parser",
+    "mathml"
+  ],
+  "author": {
+    "name": "Einsy",
+    "email": "huzc818@qq.com",
+    "url": "http://www.svgok.com"
+  },
+  "main": "latextomathml.js",
+  "readme": "latextomathml\n=============\n\nThere is only one API function:\n\nLaTeXtoMathML(String)\n\n\n///////////////////////////////////////////////////////////////////////////////////////////\n/////////////////////////////////Nodejs////////////////////////////////////////////////////\n///////////////////////////////////////////////////////////////////////////////////////////\nA javascript library for converting LaTeX equations to MathML\n\nif you run it in Nodejs environment��Execute the following command��\n\nnpm install latextomathml\n\nexample:\n\nvar Translator=require(\"latextomathml\");\n\nvar mathmlstr=Translator.LaTeXtoMathML(\"\\\\sqrt{x}\");\n\nconsole.log(mathmlstr);\n\n//you will get <math><msqrt><mrow><mi>x</mi></mrow></msqrt></math>\n\n\n///////////////////////////////////////////////////////////////////////////////////////////\n//////////////////////////////////web browser side/////////////////////////////////////////\n///////////////////////////////////////////////////////////////////////////////////////////\n\nif you run it in web browser environment��\n\n\nexample:\n\nvar mathmlstr=LaTeXtoMathML(\"\\\\sqrt{x}\");\n\nconsole.log(mathmlstr);\n\n//you will get <math><msqrt><mrow><mi>x</mi></mrow></msqrt></math>\n\n\n\n\n\n\n\n",
+  "readmeFilename": "Readme.md",
+  "_id": "latextomathml@0.0.4",
+  "_from": "latextomathml@",
+  "dist": {
+    "shasum": "fbc21ed0e3443b9640d44e4c3629e3b1ccc99bdf",
+    "tarball": "http://registry.npmjs.org/latextomathml/-/latextomathml-0.0.4.tgz"
+  },
+  "_npmVersion": "1.2.18",
+  "_npmUser": {
+    "name": "einsy",
+    "email": "huzc818@qq.com"
+  },
+  "maintainers": [
+    {
+      "name": "einsy",
+      "email": "huzc818@qq.com"
+    }
+  ],
+  "directories": {},
+  "_shasum": "fbc21ed0e3443b9640d44e4c3629e3b1ccc99bdf",
+  "_resolved": "https://registry.npmjs.org/latextomathml/-/latextomathml-0.0.4.tgz"
+}
