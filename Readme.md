@@ -1,4 +1,5 @@
 latextomathml
+LaTex语法解析引擎
 =============
 
 There is only one API function:
@@ -11,7 +12,7 @@ LaTeXtoMathML(String)
 ///////////////////////////////////////////////////////////////////////////////////////////
 A javascript library for converting LaTeX equations to MathML
 
-if you run it in Nodejs environment��Execute the following command��
+if you run it in Nodejs environment£¬Execute the following command£º
 
 npm install latextomathml
 
@@ -30,7 +31,7 @@ console.log(mathmlstr);
 //////////////////////////////////web browser side/////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////////////////////
 
-if you run it in web browser environment��
+if you run it in web browser environment£¬
 
 
 example:
